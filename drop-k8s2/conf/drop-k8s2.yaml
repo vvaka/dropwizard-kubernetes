@@ -1,0 +1,9 @@
+server:
+  type: simple
+  applicationContextPath: /
+  adminContextPath: /admin
+  connector:
+    type: http
+    port: 8080
+
+otherAppUrl: http://${DROP_K8S1_SERVICE_HOST:-localhost}:${DROP_K8S1_SERVICE_PORT:-8080}
