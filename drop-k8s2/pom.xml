@@ -24,7 +24,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <dropwizard.version>0.8.1</dropwizard.version>
+        <dropwizard.version>2.1.4</dropwizard.version>
         <mainClass>com.vvaka.DropWizardk8s2Application</mainClass>
 
         <version.compiler.plugin>2.3.1</version.compiler.plugin>
